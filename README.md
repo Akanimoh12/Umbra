@@ -25,14 +25,17 @@ submit privately → aggregate → attest net only → settle on Flare
 
 ## Deployed on Coston2
 
-_(Fill in after running the deploy pipeline — addresses land in `contracts/deployments/coston2.json`.)_
+All live on Flare Coston2 (chain 114). Browse on the [Coston2 explorer](https://coston2-explorer.flare.network).
 
 | Contract | Address |
 |---|---|
-| UmbraVault | `0x…` |
-| AttestationVerifier | `0x…` |
-| TestUSD / TestXAU | `0x…` |
-| AMM pair (tUSD/tXAU) | `0x…` |
+| UmbraVault | [`0x552431953dd3f087557196a383c436ddaab665ab`](https://coston2-explorer.flare.network/address/0x552431953dd3f087557196a383c436ddaab665ab) |
+| AttestationVerifier | [`0x6ff8a142f4909d5ef59c59b28ccd1184e95f477a`](https://coston2-explorer.flare.network/address/0x6ff8a142f4909d5ef59c59b28ccd1184e95f477a) |
+| TestUSD (tUSD) | [`0xfd2f67cd354545712f9d8230170015d7e30d133a`](https://coston2-explorer.flare.network/address/0xfd2f67cd354545712f9d8230170015d7e30d133a) |
+| TestXAU (tXAU) | [`0xa5dd225beb2ec0009fe143eb0b9309ba07d23737`](https://coston2-explorer.flare.network/address/0xa5dd225beb2ec0009fe143eb0b9309ba07d23737) |
+| AMM pair (tUSD/tXAU) | [`0x4e362e6856EA1aF94a603D6cf923a5c822010bA0`](https://coston2-explorer.flare.network/address/0x4e362e6856EA1aF94a603D6cf923a5c822010bA0) |
+
+A full confidential epoch has already settled live: two private intents (+500 / −200 tUSD) aggregated to a net of 300, attested off-chain, verified on-chain, then swapped on the AMM — [settlement tx](https://coston2-explorer.flare.network/tx/0x7ead1a9449fe03bfa5891f83f52c6183ace41bc2fd9e2c8e5f9659e123d73d31).
 
 ## Quick start
 
