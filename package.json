@@ -1,0 +1,16 @@
+{
+  "name": "umbra",
+  "private": true,
+  "description": "Umbra — confidential strategy vault on Flare. Public NAV, private strategy, attestation-verified net settlement.",
+  "scripts": {
+    "web": "pnpm --filter @umbra/web dev",
+    "web:build": "pnpm --filter @umbra/web build",
+    "aggregator": "pnpm --filter @umbra/aggregator dev",
+    "contracts:compile": "pnpm --filter @umbra/contracts compile",
+    "contracts:test": "pnpm --filter @umbra/contracts test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@10.33.1"
+}
