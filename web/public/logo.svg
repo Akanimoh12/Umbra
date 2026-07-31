@@ -1,0 +1,21 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Umbra">
+  <defs>
+    <linearGradient id="umbraBg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1b1b24"/>
+      <stop offset="1" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="umbraMoon" x1="150" y1="120" x2="360" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <mask id="umbraCrescent">
+      <rect width="512" height="512" fill="black"/>
+      <circle cx="256" cy="256" r="132" fill="white"/>
+      <circle cx="312" cy="224" r="116" fill="black"/>
+    </mask>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#umbraBg)"/>
+  <rect x="6" y="6" width="500" height="500" rx="106" fill="none" stroke="#8b5cf6" stroke-opacity="0.25" stroke-width="2"/>
+  <rect width="512" height="512" fill="url(#umbraMoon)" mask="url(#umbraCrescent)"/>
+  <circle cx="256" cy="256" r="158" fill="none" stroke="#8b5cf6" stroke-opacity="0.30" stroke-width="4" stroke-dasharray="10 16"/>
+</svg>

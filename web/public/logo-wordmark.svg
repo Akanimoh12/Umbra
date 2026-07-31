@@ -1,0 +1,16 @@
+<svg width="640" height="180" viewBox="0 0 640 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Umbra">
+  <defs>
+    <linearGradient id="umbraMoonW" x1="70" y1="42" x2="170" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <mask id="umbraCrescentW">
+      <rect width="640" height="180" fill="black"/>
+      <circle cx="120" cy="90" r="48" fill="white"/>
+      <circle cx="140" cy="78" r="42" fill="black"/>
+    </mask>
+  </defs>
+  <rect width="640" height="180" rx="32" fill="#0a0a0f"/>
+  <rect width="640" height="180" fill="url(#umbraMoonW)" mask="url(#umbraCrescentW)"/>
+  <text x="210" y="120" font-family="'Syne','Space Grotesk',sans-serif" font-size="96" font-weight="800" letter-spacing="2" fill="#fafafa">UMBRA</text>
+</svg>
