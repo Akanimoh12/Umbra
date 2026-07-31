@@ -1,0 +1,12 @@
+{
+  "testUSD": "0xfd2f67cd354545712f9d8230170015d7e30d133a",
+  "testXAU": "0xa5dd225beb2ec0009fe143eb0b9309ba07d23737",
+  "factory": "0x4f5f7aba739cb54bedc6b7a6b9615daedc3a26a4",
+  "router": "0x1820b8cebb55821705c5d3348d6e7e4f5e93d028",
+  "pair": "0x4e362e6856EA1aF94a603D6cf923a5c822010bA0",
+  "attestationVerifier": "0x6ff8a142f4909d5ef59c59b28ccd1184e95f477a",
+  "aggregatorSigner": "0xba4171b502DE8a55Eb02da2dF811d93AE1225C4a",
+  "umbraVault": "0x552431953dd3f087557196a383c436ddaab665ab",
+  "manager": "0x9bcf302cfcb64406b557342c2715e85ac62a4693",
+  "keeper": "0x9bcf302cfcb64406b557342c2715e85ac62a4693"
+}
